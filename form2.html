@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>register</title>
+    <style>
+        input[type=text], input[type=password], input[type=email], textarea {
+width: 100%;
+padding: 12px 5px;
+margin: 0px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+    </style>
+</head>
+<center><body">
+    <center><h1 style="font-family: BT;"> Isi Untuk Mendaftar</h1></center>
+    <form>
+    <fieldset style="width: 50%; font-family: BT;">
+        <center><img src="logo KITS.png" width="100"></center>
+        <h3 align="left">Username</h3>
+        <input type="text" placeholder="Enter Username">
+        <h3 align="left">Tempat dan Tanggal Lahir</h3>
+        <table align="left">
+        <td><input type="date"></td>
+        </table>
+        <br>
+        <h3 align="left">Gender</h3>
+        <table align="left">
+        <td><input type="radio" name="gender" value="laki-laki"> laki-laki </td>
+        <td><input type="radio" name="gender" value="perempuan"> perempuan </td>
+        </table>
+        <br>
+        <h3 align="left">Email</h3>
+        <input type="email" name="email" id="email" placeholder="Enter Email">
+        <h3 align="left">Password</h3>
+        <input type="password" name="pass" placeholder="Enter Password">
+        <h3 align="left">Repeat Password</h3>
+        <input type="password" name="pass" placeholder="Masukkan kembali password">
+        <h3 align="left">Alamat</h3>
+        <textarea cols="50" rows="10" placeholder="Tulis singkat tentang Alamatmu"></textarea>
+        <h3 align="left">Provinsi</h3>
+        <table align="left">
+        <td><select>
+            <option value="Jawa Timur">Jawa Timur</option>
+            <option value="Jawa Tengah">Jawa Tengah</option>
+            <option value="Jawa Barat">Jawa Barat</option>
+            <option value="DIY Yogyakarta">DIY Yogyakarta</option>
+            <option value="Jakarta">Jakarta</option>
+            <option value="Maluku Barat">Maluku Barat</option>
+            <option value="Bali">Bali</option>
+        </select></td>
+        </table><br>
+        <h3 align="left">Negara</h3>
+        <table align="left">
+        <td><select>
+            <option>Indonesia</option>
+            <option>Singapura</option>
+            <option>Malaysia</option>
+            <option>Papua Nugini</option>
+            <option>Vietnam</option>
+        </select></td>
+        </table>
+        <br><br>
+        <input type="checkbox" name="izin" >Dengan mencentang ini maka anda menyetujui ketentuan kami.
+        <br><br>
+        <button type="button" style="width: 50%; padding: 14px 20px; border-radius: 2rem; background-color: #f44336; float: left;" ><a href="form1.html">Cancel</a></button>
+        <button type="button" style="width: 50%; padding: 14px 20px; border-radius: 2rem; background-color: #36f45f; float: left;" ><a href="form1.html">Daftar</a></button>
+    </fieldset>
+    </form>
+</body></center>
+</html>
